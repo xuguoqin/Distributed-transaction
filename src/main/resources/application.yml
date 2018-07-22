@@ -1,0 +1,23 @@
+server:
+  port: 8081
+
+spring:
+  datasource:
+    signin:
+      driverClassName: com.mysql.jdbc.Driver
+      url: jdbc:mysql://127.0.0.1:3306/signin?useUnicode=true&characterEncoding=utf-8&useSSL=false
+      username: root
+      password: Qinye111..
+    integral:
+      driverClassName: com.mysql.jdbc.Driver
+      url: jdbc:mysql://127.0.0.1:3306/integral?useUnicode=true&characterEncoding=utf-8&useSSL=false
+      username: root
+      password: Qinye111..
+logging:
+  level: trace
+
+# 该节点为mybatis的配置节点
+#mybatis:
+#  type-aliases-package: com.transaction.pojo
+#  mapper-locations: classpath:mapper/*.xml
+
